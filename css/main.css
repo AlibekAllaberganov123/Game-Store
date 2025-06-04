@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+/* Core styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+.container {
+  max-width: 1259.9998779296875px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+li {
+  list-style: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+.title1 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #ffffff;
+}
+.title2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.3);
+}
+.span1 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #77be1d;
+}
+.btn1 {
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 23px 40px 27px 40px;
+}
+.btn2 {
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 15px;
+  padding: 23px 40px 27px 40px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+}
+/* header styles starts */
+.header {
+  padding: 20px 0;
+  background-color: #06030f;
+  color: #ffffff;
+}
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__top--title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header__top--name {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.header__bottom {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header__input {
+  font-size: 16px;
+  color: #9b9a9f;
+  border-radius: 15px;
+  border: none;
+  width: 648px;
+  padding: 20px;
+  background-color: #c4c4c40d;
+}
+.header__link {
+  color: #77be1d;
+  font-size: 16px;
+  font-weight: 500;
+}
+.header__icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+/* header styles ends */
+/* home styles starts */
+.home {
+  padding: 40px 0;
+  background-color: #06030f;
+}
+.home__wrapper {
+  height: 700px;
+  background-image: url(../images/home-2.svg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.header__description {
+  color: #ffffff;
+  font-size: 24px;
+  width: 592px;
+}
+.home__price {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  gap: 20px;
+}
+/* home styles ends */
