@@ -5,9 +5,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
+  transition: all 0.3s ease;
+}
+body {
+  background-color: #06030f;
 }
 .container {
-  max-width: 1259.9998779296875px;
+  max-width: 1260px;
   margin: 0 auto;
 }
 a {
@@ -25,7 +29,7 @@ li {
 }
 .title1 {
   font-size: 32px;
-  font-weight: 800;
+  font-weight: 600;
   color: #ffffff;
 }
 .title2 {
@@ -58,7 +62,6 @@ li {
 /* header styles starts */
 .header {
   padding: 20px 0;
-  background-color: #06030f;
   color: #ffffff;
 }
 .header__top {
@@ -110,7 +113,6 @@ li {
 /* home styles starts */
 .home {
   padding: 40px 0;
-  background-color: #06030f;
 }
 .home__wrapper {
   height: 700px;
@@ -149,4 +151,84 @@ li {
   display: flex;
   gap: 20px;
 }
+.home__lines {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  top: 100px;
+  left: 400px;
+}
+.home__line {
+  border: 2px solid #ffffff1a;
+  border-radius: 50px;
+  width: 40px;
+}
+.home__line:active {
+  color: #ffffff;
+}
 /* home styles ends */
+/* hero styles starts */
+.hero {
+  padding: 40px 0;
+  color: #ffffff;
+  height: 642px;
+}
+.hero__bottom {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.hero__card--title {
+  background-color: #06030f;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 800;
+  position: relative;
+  top: 110px;
+  left: 10px;
+}
+.hero__img-heart {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  top: 70px;
+  left: 250px;
+  cursor: pointer;
+}
+.hero__img-heart:active {
+  background-color: red;
+}
+.hero__card-btn {
+  width: 260px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #77be1d;
+  color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+  top: 430px;
+  right: 15px;
+  cursor: pointer;
+}
+.hero__price {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.hero__dots {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero__span {
+  border: 1px solid #3d394a;
+  border-radius: 50px;
+  padding: 5px;
+  opacity: 50%;
+}
+/* hero styles ends */
