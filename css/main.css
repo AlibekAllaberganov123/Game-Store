@@ -59,6 +59,12 @@ li {
   background: rgba(255, 255, 255, 0.05);
   color: #ffffff;
 }
+.price {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0;
+}
 /* header styles starts */
 .header {
   padding: 20px 0;
@@ -215,10 +221,8 @@ li {
   right: 15px;
   cursor: pointer;
 }
-.hero__price {
-  display: flex;
-  align-items: center;
-  gap: 15px;
+.hero__description {
+  margin: 10px 0;
 }
 .hero__dots {
   display: flex;
@@ -232,3 +236,58 @@ li {
   opacity: 50%;
 }
 /* hero styles ends */
+/* banner styles starts */
+.banner {
+  margin-top: 70px;
+  padding: 150px 0;
+}
+.banner__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+}
+.banner__card1 {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#1dbe53, #ace238);
+  border-radius: 15px;
+  width: 620px;
+  height: 360px;
+  padding: 10px 15px;
+}
+.banner__card2 {
+  display: flex;
+  align-items: center;
+  width: 620px;
+  height: 360px;
+  padding: 5px 20px;
+  border-radius: 15px;
+  background: linear-gradient(#ff3d23, #fda828);
+}
+.banner__title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #ffffff;
+  width: 379px;
+  z-index: 1000;
+}
+.banner__buttons {
+  position: relative;
+  top: 40px;
+}
+.banner__btn {
+  padding: 18px 40px 22px 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  cursor: pointer;
+}
+.banner__link {
+  color: #fff;
+}
+.banner__img {
+  position: relative;
+  right: 90px;
+  bottom: 60px;
+}
+/* banner styles ends */
