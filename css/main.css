@@ -247,6 +247,14 @@ li {
   gap: 30px;
   justify-content: space-between;
 }
+.banner__left-img {
+  position: relative;
+  left: 55px;
+}
+.banner__right-img {
+  position: relative;
+  right: 55px;
+}
 .banner__card1 {
   display: flex;
   align-items: center;
@@ -275,12 +283,6 @@ li {
 .banner__buttons {
   position: relative;
   top: 40px;
-}
-.banner__btn {
-  padding: 18px 40px 22px 40px;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 15px;
-  cursor: pointer;
 }
 .banner__link {
   color: #fff;
