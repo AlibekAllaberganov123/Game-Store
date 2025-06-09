@@ -76,6 +76,11 @@ li {
   align-items: center;
   gap: 10px;
 }
+.section__dot {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 130%;
+}
 .description {
   margin: 10px 0;
 }
@@ -332,6 +337,9 @@ li {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.category__card {
+  margin-bottom: 30px;
+}
 .category__card-btn {
   font-size: 16px;
   font-weight: 800;
@@ -341,11 +349,17 @@ li {
   border-radius: 8px;
   border: none;
   position: relative;
-  left: 110px;
-  bottom: 360px;
+  top: 90px;
+  right: 500px;
 }
-.category__card {
-  margin-bottom: 30px;
+.category__top-btn {
+  position: relative;
+  left: 200px;
+}
+
+.category__img {
+  width: 300px;
+  height: 400px;
 }
 .category__btn {
   width: 100%;
@@ -358,3 +372,40 @@ li {
   padding: 20px;
 }
 /* category styles ends */
+/* discount styles starts */
+.discount {
+  padding: 40px 0;
+  color: #ffffff;
+}
+.discount__top {
+  margin: 30px 0;
+}
+.discount__span {
+  font-size: 32px;
+  font-weight: 600;
+}
+.discount__bottom {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.discount__card {
+  margin-bottom: 30px;
+}
+.discount__price--span {
+  color: #ffffff;
+  background-color: #77be1d;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.discount__span1 {
+  padding: 6px;
+  background-color: #ff4c00;
+}
+.discount__span2 {
+  padding: 6px;
+  background-color: #4277ff;
+}
+/* discount styles ends */
