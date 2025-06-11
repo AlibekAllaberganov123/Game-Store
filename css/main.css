@@ -466,6 +466,13 @@ li {
   margin: 50px 0;
   gap: 20px;
 }
+.awards__bottom--left {
+  margin: 0 20px;
+}
+.awards__bottom--title {
+  text-align: center;
+  margin: 10px 0;
+}
 .awards__bottom--right {
   display: flex;
   align-items: center;
