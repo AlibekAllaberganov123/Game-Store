@@ -10,10 +10,12 @@
 body {
   background-color: #06030f;
 }
+
 .container {
   max-width: 1260px;
   margin: 0 auto;
 }
+
 a {
   text-decoration: none;
 }
@@ -181,8 +183,8 @@ li {
   align-items: center;
   gap: 20px;
   position: relative;
-  top: 100px;
-  left: 400px;
+  top: 160px;
+  margin-left: 400px;
 }
 .home__line {
   border: 2px solid #ffffff1a;
